@@ -1,4 +1,4 @@
-import Character from './Character';
+import Character from './index';
 
 class Daemon extends Character {
   constructor(name, type) {

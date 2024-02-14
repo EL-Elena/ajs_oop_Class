@@ -1,4 +1,4 @@
-import Character from './Character';
+import Character from './index';
 
 class Swordsman extends Character {
   constructor(name, type) {

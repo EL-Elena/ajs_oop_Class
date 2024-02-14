@@ -1,4 +1,4 @@
-import Character from './Character';
+import Character from './index';
 
 class Undead extends Character {
   constructor(name, type) {
