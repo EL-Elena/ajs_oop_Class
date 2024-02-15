@@ -1,13 +1,13 @@
-import Bowman from '../Bowman';
+import Zombie from '../Zombie';
 
-const checkClass = new Bowman('John', 'bowman');
+const checkClass = new Zombie('John', 'zombie');
 const correctArg = {
   name: 'John',
-  type: 'bowman',
+  type: 'zombie',
   health: 100,
   level: 1,
-  attack: 25,
-  defence: 25,
+  attack: 40,
+  defence: 10,
 };
 
 test('Creating new Character', () => {

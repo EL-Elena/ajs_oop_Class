@@ -1,9 +1,9 @@
-import Bowman from '../Bowman';
+import Undead from '../Undead';
 
-const checkClass = new Bowman('John', 'bowman');
+const checkClass = new Undead('John', 'undead');
 const correctArg = {
   name: 'John',
-  type: 'bowman',
+  type: 'undead',
   health: 100,
   level: 1,
   attack: 25,
